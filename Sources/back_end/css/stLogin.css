@@ -1,0 +1,54 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	margin: 0 auto;
+	background-image: url("../HondaPhoto/LoGo/Login.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+}
+.form-login{
+	margin-top:40px;
+}
+.container{
+	width: 500px;
+	height: 400px;
+	background-color: rgba(52, 73, 94, 0.7);
+	border-radius: 20px;
+	margin: 0 auto;
+	margin-top:150px;
+}
+.fLogin h2{
+	color: #fff;
+	text-align: center;
+	margin-top:20px;
+}
+
+.form-group label{
+	color: #fff;
+	margin-left: 100px;
+}
+input[type="text"],input[type="password"]{
+	width: 300px;
+	margin-left: 100px;
+}
+input[type="submit"]{
+	background-color: green;
+	color: #fff;
+	width: 100px;
+	margin-top:40px;
+	display: inline;
+}
+.sm{
+	margin-left: 193px;
+}
+a{
+	color: #fff;
+	margin-left: 160px;
+}
+.baoloi{
+	color: red;
+	font-size: 12px;
+}
