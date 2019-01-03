@@ -24,7 +24,7 @@ include_once('../cauhinh/ketnoi.php');
 					<li class="dropdown pull-right">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> User <span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu">
-							<li><a href="#"><svg class="glyph stroked cancel"><use xlink:href="#stroked-cancel"></use></svg> Logout</a></li>
+							<li><a href="log.php"><svg class="glyph stroked cancel"><use xlink:href="#stroked-cancel"></use></svg> Logout</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -37,8 +37,9 @@ include_once('../cauhinh/ketnoi.php');
 		<ul class="nav menu">
 			<li role="presentation" class="divider"></li>
 			<li><a href="index.php"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-dashboard-dial"></use></svg> Trang chủ</a></li>
-			<li><a href="qlsanpham.php"><svg class="glyph stroked calendar"><use xlink:href="#stroked-calendar"></use></svg> Truyện</a></li>
+			<li><a href="qltruyen.php"><svg class="glyph stroked calendar"><use xlink:href="#stroked-calendar"></use></svg> Truyện</a></li>
 			<li class="active"><a href="qldanhmuc.php"><svg class="glyph stroked notepad "><use xlink:href="#stroked-notepad"/></svg> Danh mục</a></li>
+			<li><a href="admin.php"><svg class="glyph stroked male user "><use xlink:href="#stroked-male-user"></use></svg> Thành viên</a></li>
 			<li role="presentation" class="divider"></li>
 		</ul>
 		
@@ -88,7 +89,7 @@ include_once('../cauhinh/ketnoi.php');
 								<tr>
 									<td><?php echo $row['ten_dm'];?></td>
 									<td>
-			                    		<a href="#" class="btn btn-warning"><span class="glyphicon glyphicon-edit"></span> Sửa</a>
+			                    		<a href="suadanhmuc.php" class="btn btn-warning"><span class="glyphicon glyphicon-edit"></span> Sửa</a>
 			                    		<a href="#" onclick="return confirm('Bạn có chắc chắn muốn xóa?')" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Xóa</a>
 			                  		</td>
 			                  	</tr>

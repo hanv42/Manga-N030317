@@ -65,26 +65,10 @@
 					                    <img id="avatar" class="thumbnail" width="300px" src="img/new_seo-10-512.png">
 									</div>
 									<div class="form-group" >
-										<label>Phụ kiện</label>
-										<input required type="text" name="accessories" class="form-control">
-									</div>
-									<div class="form-group" >
-										<label>Bảo hành</label>
-										<input required type="text" name="warranty" class="form-control">
-									</div>
-									<div class="form-group" >
-										<label>Khuyến mãi</label>
-										<input required type="text" name="promotion" class="form-control">
-									</div>
-									<div class="form-group" >
-										<label>Tình trạng</label>
-										<input required type="text" name="condition" class="form-control">
-									</div>
-									<div class="form-group" >
 										<label>Trạng thái</label>
 										<select required name="status" class="form-control">
-											<option value="1">Còn hàng</option>
-											<option value="0">Hết hàng</option>
+											<option value="1">Hoàn thành</option>
+											<option value="0">Chưa hoàn thành</option>
 					                    </select>
 									</div>
 									<div class="form-group" >

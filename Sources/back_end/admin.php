@@ -29,8 +29,8 @@ include_once('../cauhinh/ketnoi.php');
                    <nav class="navbar navbar-default">
                       <div class="container-fluid">
                        <ul class="nav navbar-nav">
-                        <li><a href="index.pnp">Home</a></li>
-                        <li><a href="index.php">Users</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="admin.php">Users</a></li>
                         <li><a href="themthanhvien.php">Add user</a></li>
                     </ul>
                     <p id="logout" class="navbar-text navbar-right"><a class="navbar-link" href="log.php">Logout</a></p>
@@ -50,7 +50,6 @@ include_once('../cauhinh/ketnoi.php');
     ?>
     <div class="row">
     	<div class="col-sm-12">
-           <div class="alert alert-success">Added user success!</div>
            <table class="table table-striped">
                <tr id="tbl-first-row">
                    <td width="10%">#</td>

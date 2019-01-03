@@ -38,11 +38,11 @@
     	<div class="col-sm-6">
         	   <?php
             require_once('../cauhinh/ketnoi.php');
- 
             if (isset($_POST["submit-sua"])) {
-                $email = $_POST["email"];
+                $email = $_POST["mail"];
+				$id_user = $_POST["id"];
                 $sql = "UPDATE admin 
-                SET  email = '$email' where id = $id_user";
+                SET  mail = '$email' where id = $id_user";
                 mysqli_query($link, $sql);
             }
  
@@ -54,7 +54,7 @@
                 $sql = "SELECT * FROM users WHERE id = $id";
                 $query = mysqli_query($link, $sql);
                 while ( $data = mysqli_fetch_array($query) ) {
-                    $email = $data["email"];
+                    $email = $data["mail"];
                 }
             }
         ?>
@@ -62,12 +62,12 @@
                 <input type="hidden" name="id_user" value="<?php echo $data['id']; ?>">
                  <div class="form-group">
                     <label>Email</label>
-                    <input type="text" name="mail" class="form-control" placeholder="Email"  value="nguyenvana@gmail.com" required />
+                    <input type="text" name="mail" class="form-control" placeholder="Email" required />
                 </div>
               
                 <div class="form-group">
                 	<label>Password</label>
-                    <input type="password" name="pass" class="form-control" placeholder="Password" value="123456" required />
+                    <input type="password" name="pass" class="form-control" placeholder="Password" required />
                 </div>
                 <input type="submit" name="submit-sua" value="Sửa" class="btn btn-primary" />
             </form>
@@ -77,4 +77,3 @@
 
 </body>
 </html>
-\

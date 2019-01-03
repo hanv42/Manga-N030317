@@ -1,8 +1,8 @@
 <?php
-	include('../header.php');
-	include('../menu-top.php');
-	include('../menu.php');
-	include('../slideshow.php');
+	include('../front_end/header.php');
+	include('../front_end/menu-top.php');
+	include('../front_end/menu.php');
+	include('../front_end/slideshow.php');
 ?>
 <?php
 	$sql="SELECT * FROM manga WHERE noi_bat=1 ORDER BY id_m DESC LIMIT 8";
@@ -23,7 +23,7 @@
 								<p>
 									<a href="#"><?php echo $row['ten_m'];?></a>
 								<div class="marsk">
-									<a href="chitietsanpham.php">Xem chi tiết</a>
+									<a href="#">Xem chi tiết</a>
 								</div>                                    
 							</div> 
 					<?php
@@ -70,5 +70,5 @@
 					</div>    
 				</div>
 <?php
-	include('../footer.php');
+	include('../front_end/footer.php');
 ?>

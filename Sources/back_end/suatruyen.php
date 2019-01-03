@@ -64,11 +64,6 @@
 										<label>Ảnh truyện</label>
 										<input id="img" type="file" name="img" class="form-control hidden" onchange="changeImg(this)">
 					                    <img id="avatar" class="thumbnail" width="300px" src="img/iphone7-plus-black-select-2016.jpg">
-									</div>
-									<div class="form-group" >
-										<label>Tình trạng</label>
-										<input required type="text" name="condition" class="form-control">
-									</div>
 									<div class="form-group" >
 										<label>Trạng thái</label>
 										<select required name="status" class="form-control">
@@ -96,7 +91,7 @@
 										Có: <input type="radio" name="featured" value="1">
 										Không: <input type="radio" checked name="featured" value="0">
 									</div>
-									<input type="submit" name="submit" value="Thêm" class="btn btn-primary">
+									<input type="submit" name="submit" value="Sửa" class="btn btn-primary">
 									<a href="#" class="btn btn-danger">Hủy bỏ</a>
 								</div>
 							</div>

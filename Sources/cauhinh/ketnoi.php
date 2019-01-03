@@ -2,7 +2,7 @@
 $host="localhost";
 $user="root";
 $pass="";
-$db="webdlc";
+$db="webmanga";
 
 $link=mysqli_connect($host,$user,$pass,$db);
 

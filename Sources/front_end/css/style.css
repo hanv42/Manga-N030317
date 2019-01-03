@@ -34,14 +34,6 @@
 	height: 35px;
 	width: 100px;
 }
-/*style phần giỏ hàng*/
-#Login{
-	background-image: url();
-	background-repeat: no-repeat;
-	color: #000000;
-	height: 100px;
-	line-height: 100px;
-}
 /*style phần menu top*/
 #menu-top{
 	height: 45px;
@@ -99,7 +91,7 @@
 #menu-cat ul li:hover{
 	background-color: red;
 }
-/*style phần sản phẩm*/
+/*style phần manga*/
 .products h3{
 	color: red;
 }

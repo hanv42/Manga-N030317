@@ -75,7 +75,6 @@
 
 				<div class="form-group" id="sm">
 					<input type="submit" name="sb" value="Đăng nhập" class="form-control sm" >
-					<input type="submit" name="sb-dk"  value="Thêm" class="form-control">
 				</div>
 				<a>Quên mật khẩu?</a>
 			</div>

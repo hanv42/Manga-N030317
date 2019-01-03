@@ -27,7 +27,7 @@
                       <div class="container-fluid">
                        <ul class="nav navbar-nav">
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="index.php">Users</a></li>
+                        <li><a href="admin.php">Users</a></li>
                         <li><a href="themthanhvien.php">Add user</a></li>
                     </ul>
                     <p id="logout" class="navbar-text navbar-right"><a class="navbar-link" href="#">Logout</a></p>
@@ -54,7 +54,7 @@
                 if (!$result) {
                     echo "Người dùng đã tồn tại vui lòng không trùng username và email !";
                 }else{
-                    header('Location: quanlythanhvien.php');
+                    echo "Thêm thành công";
                 }
 
             }

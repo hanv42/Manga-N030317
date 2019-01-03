@@ -1,11 +1,11 @@
-<!--<php
+<?php
 session_start();
 //tiến hành kiểm tra là người dùng đã đăng nhập hay chưa
 //nếu chưa, chuyển hướng người dùng ra lại trang đăng nhập
 if (!isset($_SESSION['email'])) {
 	 header('Location: fdangnhap.php');
 }
-?>-->
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -40,8 +40,9 @@ if (!isset($_SESSION['email'])) {
 		<ul class="nav menu">
 			<li role="presentation" class="divider"></li>
 			<li class="active"><a href="index.php"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-dashboard-dial"></use></svg> Trang chủ</a></li>
-			<li><a href="qlsanpham.php"><svg class="glyph stroked calendar"><use xlink:href="#stroked-calendar"></use></svg> Truyện</a></li>
+			<li><a href="qltruyen.php"><svg class="glyph stroked calendar"><use xlink:href="#stroked-calendar"></use></svg> Truyện</a></li>
 			<li><a href="qldanhmuc.php"><svg class="glyph stroked line-graph"><use xlink:href="#stroked-line-graph"></use></svg> Danh mục</a></li>
+			<li><a href="admin.php"><svg class="glyph stroked male user "><use xlink:href="#stroked-male-user"></use></svg> Thành viên</a></li>
 			<li role="presentation" class="divider"></li>
 		</ul>
 		
